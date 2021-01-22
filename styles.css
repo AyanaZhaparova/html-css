@@ -35,6 +35,11 @@ nav ul li a:hover {
 }
 
 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
