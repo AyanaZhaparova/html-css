@@ -36,11 +36,12 @@ nav ul li a:hover {
     background-color: #e7aa59;
     transition: 0.2s;
 }
-header {
+
+.parent-1 {
     display: flex;
     
 }
-header .ex-1 {
+.parent-1 .ex-1 {
     flex-direction: column;
     margin-top: 80px;
     margin-left: 200px;
@@ -70,7 +71,7 @@ header .ex-1 {
 }
 
 
-header .ex-2 {
+.parent-1 .ex-2 {
     flex-direction: column;
 }
 
@@ -90,26 +91,68 @@ header .ex-2 {
     
 }
 
-header .vector {
+.parent-1 .vector {
     position: absolute;
     left: -3.30%;
     right: 92%;
     top: 30%;
     bottom: 94%;
 }
-header .vector2 {
+.parent-1 .vector2 {
     width: 100px;
     height: 100px;
     position: absolute;
+    
     left: 85%;
     right: 10%;
     top: 1050px;
     bottom: 80.44%;
 }
-header .group {
+.parent-1 .group {
     position: absolute;
     width: 225px;
     height: 225px;
     left: 20px;
     top: 750px;
 }
+
+.parent-2 {
+    display: flex;
+}
+
+.parent-2 .ex-3 {
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.ex-3 h1 {
+    text-align: left;
+    max-width: 300px;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(83, 72, 71, 1);
+}
+
+.ex-3 a {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(226, 184, 76, 1);
+    text-decoration: none;
+}
+
+
+.ex-4 p {
+    text-align: left;
+    max-width: 500px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(141, 129, 128, 1);
+}
+
+.ex-4 a {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(226, 184, 76, 1);
+    text-decoration: none;
+}
+
+
