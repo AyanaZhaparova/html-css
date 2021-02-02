@@ -157,3 +157,10 @@ div .ex-4 a {
     color: rgba(226, 184, 76, 1);
     text-decoration: none;
 }
+
+.ex-5 h1 {
+    font-family: 'Raleway', sans-serif;
+    color: rgba(83, 72, 71, 1);
+    text-align: center;
+    margin-top: 150px;
+}
