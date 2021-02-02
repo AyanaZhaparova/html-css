@@ -32,7 +32,7 @@ nav ul li a {
 nav ul li a:hover {
     color: white;
     background-color: #e7aa59;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .parent-1 {
