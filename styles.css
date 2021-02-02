@@ -164,3 +164,11 @@ div .ex-4 a {
     text-align: center;
     margin-top: 150px;
 }
+
+.ex-5 .images  {
+    text-align: center;
+}
+
+.images img {
+    margin: 30px 20px;
+}
