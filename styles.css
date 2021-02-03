@@ -181,3 +181,18 @@ div .ex-4 a {
     color: rgba(83, 72, 71, 1);
     font-family: 'Raleway', sans-serif; 
 }
+
+.ex-6 a {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(226, 184, 76, 1);
+    text-decoration: none;
+}
+.ex-6 img {
+    text-align: center;
+}
+.ex-6 p {
+    color: rgba(83, 72, 71, 1);
+    font-family: 'Raleway', sans-serif;
+    max-width: 300px;
+
+}
