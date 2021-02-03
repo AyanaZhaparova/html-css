@@ -174,7 +174,9 @@ div .ex-4 a {
 }
 
 .ex-6 {
+   max-width: 1250px;
    background-color: rgba(249, 249, 249, 1);
+   margin-top: 150px;
 }
 
 .ex-6 h1 {
@@ -188,11 +190,14 @@ div .ex-4 a {
     text-decoration: none;
 }
 .ex-6 img {
-    text-align: center;
+    margin-top: 90px;
+    margin-left: 248px;
+    width: 1000px;
+    height: 500px;
 }
 .ex-6 p {
     color: rgba(83, 72, 71, 1);
     font-family: 'Raleway', sans-serif;
     max-width: 300px;
-
+    margin-left: 800px;
 }
