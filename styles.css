@@ -213,5 +213,38 @@ footer {
 }
 footer .ff {
     display: flex;
-    
+    font-family: 'Poppins', sans-serif;
 }
+
+.ex-7 h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.ex-7 p {
+    color: rgba(255, 255, 255, 1);
+    max-width: 300px;
+}
+.ex-8 {
+    text-align: center;
+}
+.ex-8 h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.ex-8 .p-1 {
+    padding: 5px 5px;
+}
+.ex-8 .p-2 {
+    padding: 10px 15px;
+    background-color: white;
+    color: rgba(40, 35, 34, 1);
+}
+.ex-8 .p-3 {
+    padding: 10px 15px;
+    background-color: rgba(230, 168, 89, 1);
+    color: white;
+}
+
+
