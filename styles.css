@@ -181,13 +181,17 @@ div .ex-4 a {
 
 .ex-6 h1 {
     color: rgba(83, 72, 71, 1);
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;
+    margin-left: 150px; 
+    
 }
 
 .ex-6 a {
     font-family: 'Poppins', sans-serif;
     color: rgba(226, 184, 76, 1);
     text-decoration: none;
+    margin-left: 150px;
+    
 }
 .ex-6 img {
     margin-top: 90px;
@@ -199,5 +203,6 @@ div .ex-4 a {
     color: rgba(83, 72, 71, 1);
     font-family: 'Raleway', sans-serif;
     max-width: 300px;
-    margin-left: 800px;
+    margin-top: 60px;
+    margin-left: 700px;
 }
