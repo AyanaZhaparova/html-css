@@ -287,7 +287,10 @@ footer .ff {
     color: white;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    
+
+}
+.nav-footer {
+    list-style-type: none;
 }
 
 @media (max-width: 600px) {
