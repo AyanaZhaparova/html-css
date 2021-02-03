@@ -206,3 +206,12 @@ div .ex-4 a {
     margin-top: 60px;
     margin-left: 700px;
 }
+
+
+footer {
+    background-color: rgba(40, 35, 34, 1);
+}
+footer .ff {
+    display: flex;
+    
+}
