@@ -176,3 +176,8 @@ div .ex-4 a {
 .ex-6 {
    background-color: rgba(249, 249, 249, 1);
 }
+
+.ex-6 h1 {
+    color: rgba(83, 72, 71, 1);
+    font-family: 'Raleway', sans-serif; 
+}
