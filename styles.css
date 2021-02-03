@@ -180,18 +180,19 @@ div .ex-4 a {
     margin: 30px 19px;
 }
 
-.ex-6 {
+.parent-3 {
    max-width: 1250px;
    background-color: rgba(249, 249, 249, 1);
-   margin-top: 150px;
    
 }
+
 
 .ex-6 h1 {
     color: rgba(83, 72, 71, 1);
     font-family: 'Raleway', sans-serif;
     margin-left: 150px; 
-    
+    margin-top: 20px;
+    margin-left: 200px;
 }
 
 .ex-6 a {
@@ -199,15 +200,16 @@ div .ex-4 a {
     color: rgba(226, 184, 76, 1);
     text-decoration: none;
     margin-left: 150px;
-    
+    margin-top: 20px;
+    margin-left: 200px;
 }
-.ex-6 img {
+.parent-3 img {
     margin-top: 90px;
     margin-left: 248px;
     width: 1000px;
     height: 500px;
 }
-.ex-6 p {
+.parent-3 p {
     color: rgba(83, 72, 71, 1);
     font-family: 'Raleway', sans-serif;
     max-width: 300px;
@@ -223,18 +225,25 @@ footer {
 footer .ff {
     display: flex;
     font-family: 'Poppins', sans-serif;
+    margin: 100px 0;
+    
 }
-
+.ex-7 {
+    margin: 100px 150px;
+}
 .ex-7 h1 {
     color: white;
     font-size: 20px;
+
 }
 
 .ex-7 p {
+    margin-top: 70px;
     color: rgba(255, 255, 255, 1);
     max-width: 300px;
 }
 .ex-8 {
+    margin-top: 100px;
     text-align: center;
 }
 .ex-8 h1 {
@@ -257,7 +266,10 @@ footer .ff {
 
 }
 
-
+.ex-9 {
+    margin-top: 70px;
+    margin-left: 160px;
+}
 .ex-9 h1 {
     color: white;
     font-size: 20px;
@@ -271,7 +283,12 @@ footer .ff {
     font-family: 'Poppins', sans-serif;
     margin-left: 50px;
 }
-
+.end {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
 
 @media (max-width: 600px) {
 
