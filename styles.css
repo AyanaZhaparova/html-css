@@ -1,41 +1,42 @@
 body {
+    width: 100%;
+    height: 100%;
     margin: 0;
 }
 nav {
-    display: block;
-    margin-top: 31px;
-    margin-bottom: 40px;
-    max-width: 90%;
-}
-nav ul {
-    list-style-type: none;
-    background-color: white;
-    padding-left: 0;
-    margin: 0;
     text-align: right;
-    padding-top: 31px;
-    height: 51px;
-    
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 50px;
 }
-nav ul li {
-    display: inline;
+.menu {
+   margin: 60px 30px; 
 }
-nav ul li a {
+
+ .menu  a {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     color: black;
-    padding: 11px;
-    margin: 16px;
+    margin: 0px 30px;
+    line-height: 70px;
 }
 
 
-nav ul li a:hover {
+ .menu a:hover {
     color: white;
     background-color: #e7aa59;
     transition: 0.3s;
 }
-
+label {
+    margin: 0 40px 0 0;
+    font-size: 30px;
+    line-height: 70px;
+    display: none;
+}
+#toggle {
+    display: none;
+}
 .parent-1 {
     display: flex;
     
@@ -289,11 +290,49 @@ footer .ff {
     text-align: center;
 
 }
-div .nav-footer {
+.nav-footer {
+    display: block;
+    margin-top: 31px;
+    margin-bottom: 40px;
+    max-width: 66%;
+}
+.nav-footer ul {
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    text-align: right;
+    padding-top: 31px;
+    height: 51px;
+    
+}
+.nav-footer ul li {
+    display: inline;
+}
+.nav-footer ul li a {
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 11px;
+    margin: 16px;
 }
 
-@media (max-width: 600px) {
 
+
+@media only screen and (max-width: 500px) {
+      label {
+          display: block;
+          cursor: pointer;
+      }
+      .menu {
+          background-color: rgba(40, 35, 34, 1);
+          display: none;
+          text-align: center;
+          width: 100%;
+      }
+      .menu a {
+          display: block;
+      }
+      #toggle:checked + .menu {
+          display: block;
+      }
 }
