@@ -752,7 +752,7 @@ footer .ff {
     label {
         display: block;
         cursor: pointer;
-        transition: .5s all;
+        transition: .4s all;
     }
     .menu {
         background-color: rgba(40, 35, 34, 1);
