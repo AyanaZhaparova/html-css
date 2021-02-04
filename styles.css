@@ -672,13 +672,14 @@ footer .ff {
 }
 
 
-@media screen and  (max-width:700px), (max-width: 650) {
+@media screen and  (max-width:700px), (max-width: 650px
+) {
     .vector, .group, .vector2 {
         display: none;
     }
     .parent-1 .ex-1 {
         flex-direction: column;
-        margin-top: 49px;
+        margin-top: 51px;
         margin-left: 10px;
         
     }
