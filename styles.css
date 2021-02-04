@@ -388,7 +388,7 @@ footer .ff {
 }
 
 
-@media screen and  (max-width: 901px) {
+@media screen and  (max-width: 902px) {
     .vector, .group, .vector2 {
         display: none;
     }
