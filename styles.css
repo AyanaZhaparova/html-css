@@ -22,13 +22,14 @@ nav {
     color: black;
     margin: 0px 30px;
     line-height: 70px;
+    padding: 7px 13px;
 }
 
 
  .menu a:hover {
     color: white;
     background-color: #e7aa59;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 label {
     margin: 0 40px 0 0;
@@ -40,6 +41,7 @@ label {
 #toggle {
     display: none;
 }
+
 .parent-1 {
     display: flex;
     
@@ -82,7 +84,6 @@ label {
     width: 600px;
     height: 800px;
     border-radius: 30px 0 0 0;
-    
 }
 
 .progects {
@@ -178,16 +179,25 @@ div .ex-4 a {
 
 .ex-5 .images  {
     text-align: center;
+    
 }
 
 .images img {
-    margin: 30px 19px;
+    margin: 40px 20px;
+}
+
+.ex-5 a {
+  background-color: lightsteelblue;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
 }
 
 .parent-3 {
    max-width: 1250px;
    background-color: rgba(249, 249, 249, 1);
-   
 }
 
 
@@ -203,6 +213,7 @@ div .ex-4 a {
     color: rgba(226, 184, 76, 1);
     text-decoration: none;
     margin-left: 200px;
+    margin-top: 100px;
 }
 .parent-3 img {
     margin-top: 90px;
@@ -210,12 +221,43 @@ div .ex-4 a {
     width: 1000px;
     height: 500px;
 }
-.parent-3 p {
+.ex-66 p {
     color: rgba(83, 72, 71, 1);
     font-family: 'Raleway', sans-serif;
     max-width: 300px;
-    margin-top: 60px;
     margin-left: 700px;
+}
+
+ h2 {
+    color: rgba(83, 72, 71, 1);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.ex-10 {
+    display: flex;
+    justify-content: center;
+}
+
+.ex-10 .box-1 {
+    margin: 70px 140px;
+    text-align: center;
+    
+}
+.ex-10 a {
+    display: block;
+    color: rgba(83, 72, 71, 1);
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.ex-10 p {
+    font-family: 'Poppins', sans-serif;
+    color: lightslategray ;
+    font-size: 12px;
 }
 
 
@@ -225,8 +267,7 @@ footer {
 footer .ff {
     display: flex;
     font-family: 'Poppins', sans-serif;
-    margin: 100px 0;
-    
+    margin: 100px 0; 
 }
 .ex-7 {
     margin: 100px 150px;
@@ -249,10 +290,15 @@ footer .ff {
 .ex-8 h1 {
     color: white;
     font-size: 20px;
+    text-align: left;
+    margin-bottom: 50px;
 }
 
 .ex-8 .p-1 {
+    
+    padding: 10px 14px;
     padding: 5px 5px;
+    color: white;
 }
 .ex-8 .p-2 {
     padding: 10px 14px;
@@ -260,7 +306,7 @@ footer .ff {
     color: rgba(40, 35, 34, 1);
 }
 .ex-8 .p-3 {
-    padding: 10px 15px;
+    padding: 10px 14px;
     background-color: rgba(230, 168, 89, 1);
     color: white;
 
@@ -589,8 +635,8 @@ footer .ff {
      }
 
     .parent-3 img {
-        width: 500px;
-        height: 250px;
+        width: 700px;
+        height: 350px;
         margin-left: 18px;
         
     }
@@ -604,6 +650,33 @@ footer .ff {
         display: block;
         cursor: pointer;
         transition: .5s all;
+    }
+
+    .ex-10 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .ex-10 .box-1 {
+        margin: 70px 140px;
+        text-align: center;
+        
+    }
+    .ex-10 a {
+        display: block;
+        color: rgba(83, 72, 71, 1);
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 60px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    
+    .ex-10 p {
+        font-family: 'Poppins', sans-serif;
+        color: lightslategray ;
+        font-size: 12px;
     }
     .menu {
         background-color: rgba(40, 35, 34, 1);
@@ -842,7 +915,7 @@ footer .ff {
         width: 400px;
         height: 600px;
         border-radius: 30px 0 0 0;
-        margin-left: 80px;
+        margin-left: 70px;
         margin-top: 40px;
         
     }
@@ -894,6 +967,10 @@ footer .ff {
         margin-top: 60px;
         margin-left: 130px;
     }
+
+    .ex-5 a {
+        display: none;
+    }
     label {
         display: block;
         cursor: pointer;
@@ -937,13 +1014,12 @@ footer .ff {
     }
     .ex-8 {
         margin-top: 50px;
-    
+        width: 200px;
+        margin-left: 150px;
     }
     .ex-8 h1 {
         margin-bottom: 60px;
     }
-    
-    
     
     .ex-9 {
         margin-top: 70px;
